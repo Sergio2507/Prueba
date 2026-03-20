@@ -12,4 +12,4 @@ public class Multiplicar {
         }
         return "El resultado de la multiplicacion es: "+respuesta;
     }
-}
+}  

@@ -2,7 +2,7 @@ package proyectoback.metodos;
 import java.util.Scanner;
 public class Menu {
     Scanner scanner = new Scanner(System.in);
-    public void MostrarMenu(){
+    public void MostrarMenu(){  
         System.out.println("Que tipo de operacion desea realizar 1-Suma 2-Resta 3-Multiplicacion 4-Division 5-Potencia 6-Raiz 7-Factorial");  
         String op = scanner.next();
         switch(op){

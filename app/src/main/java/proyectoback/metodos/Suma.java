@@ -7,7 +7,7 @@ public class Suma {
 } 
     public String Sumar(String numeros[]){
         Double respuesta=0.0;
-        for (String numero : numeros) {
+        for (String numero : numeros) {  
             respuesta+=Double.parseDouble(numero);   
         }
         return "El resultado de la suma es: "+respuesta;

@@ -14,7 +14,7 @@ public class Operaciones {
         String[] numeros= new String[cantidad];
         for (int i=0 ; i<=cantidad-1 ; i++){
             System.out.println("Ingresa el numero");
-            numeros[i]=scanner.next();
+            numeros[i]=scanner.next(); 
         }
         return new Suma().Sumar(numeros);
     }

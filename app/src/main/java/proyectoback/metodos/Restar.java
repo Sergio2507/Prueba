@@ -7,7 +7,7 @@ public class Restar {
     }
     public String Resta(String numeros[]){
     Double respuesta=0.0;
-    for (String numero : numeros){
+    for (String numero : numeros){  
         respuesta-=Double.parseDouble(numero);
     }
     return "El resultado de la resta es: "+respuesta;
